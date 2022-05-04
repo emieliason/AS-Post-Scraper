@@ -1,0 +1,25 @@
+{
+  "name": "as-post-scraper",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "A scraper tool that pulls posts from the Amherst Student website.",
+  "main": "main.js",
+  "dependencies": {
+    "node-fetch": "^3.2.3",
+    "jquery": "^3.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emieliason/AS-Post-Scraper.git"
+  },
+  "author": "Emi Eliason",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emieliason/AS-Post-Scraper/issues"
+  },
+  "homepage": "https://github.com/emieliason/AS-Post-Scraper#readme"
+}

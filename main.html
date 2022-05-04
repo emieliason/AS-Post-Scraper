@@ -1,19 +1,21 @@
 <!doctype html>
+
 <html>
-<head>
-    <meta charset="utf-8">
-    <title>The Amherst Student</title>
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather">
-</head>
+    <head>
+        <meta charset="utf-8">
+        <title>The Amherst Student</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather">
+    </head>
 <body>
     <!-- <script src="jquery.js"></script> -->
-
-    <script src="fetch.js"></script>
+    <!-- <script type="module" src="./main.js"></script> -->
 
     <div class=container>
 
         <h1 id="title">The Amherst Student</h1>
+
+        <button id="increment-btn" onclick="fetchPosts()">increment</button>
 
         <a href="https://www.youtube.com/watch?v=pQN-pnXPaVg&ab_channel=freeCodeCamp.org" class="link">Here's a link!</a>
         <a href="https://www.youtube.com/watch?v=pQN-pnXPaVg&ab_channel=freeCodeCamp.org" class="link">Here's a link!</a>
@@ -23,5 +25,6 @@
         <a href="https://www.youtube.com/watch?v=pQN-pnXPaVg&ab_channel=freeCodeCamp.org" class="link">Here's a link!</a>
     </div>
 
+    <script type="module" src="fetch.js"></script>
 </body>
 </html>
